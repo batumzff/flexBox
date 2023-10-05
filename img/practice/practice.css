@@ -83,4 +83,40 @@ align-items: center;
 nav .right i{
     color: black;
     font-size: 3rem;
+    line-height: 2;
+}
+
+header{
+margin-top: 50px;
+/* border: 2px solid red; */
+
+display: flex;
+gap: 1rem;
+}
+
+.img img{
+    width: 100%;
+}
+
+.img{
+/* border: 2px solid blue; */
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+/* order: 2; */
+
+}
+
+.text{
+    background-image: url("https://picsum.photos/id/42/600/400");
+    background-size: cover;
+    color: yellow;
+    padding: 50px;
+    /* border: 2px solid blue; */
+flex: 1;
+line-height: 2;
+/* order: 1; */
+
+
 }
